@@ -15,8 +15,8 @@ fs.readdir(dirpath, function (err, files)  {
 /*
 fs.readdir(dirpath, function (err, files)  {
 //  files.forEach((file) => {
-//    if (path.extname(files[i]) === ext) {
-//      console.log(files[i]);
+//    if (path.extname(file) === ext) {
+//      console.log(file);
 //    }
 //  });
 
