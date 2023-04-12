@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const dirpath = process.argv[2];
-const ext = `. ${process.argv[3]}`;
+const ext = `.${process.argv[3]}`;
 
 fs.readdir(dirpath, function (err, files)  {
   for (let i = 0; i < files.length; i += 1) {
